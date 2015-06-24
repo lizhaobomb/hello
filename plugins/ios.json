@@ -1,0 +1,26 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"Hello\"><param name=\"ios-package\" value=\"HWPHello\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.example.hello": {
+            "PACKAGE_NAME": "com.example.helloapp"
+        }
+    },
+    "dependent_plugins": {}
+}
